@@ -6,15 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "eslint . --ext ts,tsx --fix"
   },
   "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "axios": "^1.6.2",
+    "keen-slider": "^6.8.6",
     "next": "14.0.1",
+    "phosphor-react": "^1.4.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-loading-skeleton": "^3.3.1",
+    "stripe": "^14.4.0",
+    "use-shopping-cart": "^3.1.8"
   },
   "devDependencies": {
-    "eslint": "8.53.0",
-    "eslint-config-next": "14.0.1"
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.35",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "14.0.1",
+    "typescript": "^5.2.2"
   }
 }

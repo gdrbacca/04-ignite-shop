@@ -1,0 +1,16 @@
+npm i eslint @rocketseat/eslint-config -D
+
+
+npm i typescript @types/react @types/node -D
+
+npm i @stitches/react
+
+npm i keen-slider
+
+npm i stripe
+
+npm i axios
+
+npm i phosphor-react
+
+npm i react-loading-skeleton
